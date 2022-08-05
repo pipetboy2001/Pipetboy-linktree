@@ -1,0 +1,46 @@
+/*para todo*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*contenedor*/
+.container{
+    /* color por si no carga imagen */
+    background-color: #0e001f;
+    height: auto;
+}
+
+/*Perfil*/
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/*Foto de perfil*/
+.profile>img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #222;
+    border-radius: 100%;
+}
+/*Letras*/
+.name{
+    color: #fff;
+    text-align: center;
+}
+.Letters{
+    color: #a1a1a1;
+    text-align: center;
+}
+/*pie de pagina*/
+.footer {
+    text-align: center;
+}
+
+.footer>i {
+    color: white;
+    font-size: 20px;
+}
