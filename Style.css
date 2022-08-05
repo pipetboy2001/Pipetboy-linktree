@@ -9,6 +9,10 @@
     /* color por si no carga imagen */
     background-color: #0e001f;
     height: auto;
+    width: auto;
+    background-image: url('Img/fondo2.jpg');
+    background-size: contain;
+    border: 1px solid #c889ac;
 }
 
 /*Perfil*/
